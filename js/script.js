@@ -197,7 +197,7 @@ document.addEventListener("keydown", (event) => {
     let op = key;
 
     if (key === "Enter") {
-      event.preventDefault(); // Impede duplo acionamento
+      event.preventDefault(); //nao deixa o enter dar duplo click
       op = "=";
     }
     if (key === "Backspace") op = "DEL";
